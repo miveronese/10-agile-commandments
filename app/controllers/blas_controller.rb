@@ -1,7 +1,6 @@
 class BlasController < ApplicationController
 
   def index
-    @ble = Bla.new
-    @bla = @ble.generate_bla
+    @bla = Bla.new.generate_bla
   end
 end
