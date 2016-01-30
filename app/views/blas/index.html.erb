@@ -1,3 +1,25 @@
-<%= @bla %>
-
-<%= button_to "Refresh", blas_path, :method => :get %>
+<br><br><br>
+<div class="ui grid">
+  <div class="three column row">
+    <div class="column">
+      <div class="quote_left"><i class="quote left icon"></i></div>
+    </div>  
+    <div class="column">
+      <h1 class="ui header"><div class="bla"><%= @bla %></div></h1>
+    </div>
+    <div class="column">
+      <div class="quote_right"><i class="quote right icon"></i></div>
+    </div>
+  </div>
+</div>
+<div class="ui grid">
+  <div class="three column row">
+    <div class="column"> </div>
+    <div class="column">
+      <div id="button_bla">
+        <%= link_to "Bla", blas_path, :method => :get, :class => "ui primary button big" %>
+      </div>
+    </div>
+    <div class="column"> </div>
+  </div>
+</div>
