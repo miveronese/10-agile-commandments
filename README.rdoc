@@ -3,5 +3,5 @@
 This is a magical generator of inspiring quotes that will change your life. Hmm, not!
 Just my stupidy attempt to generate randon silly sentences in Ruby. 
 
-You can see the result here: http://blablas.herokuapp.com/blas
+You can see the result here: http://blablas.herokuapp.com
 
