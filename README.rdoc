@@ -1,7 +1,8 @@
 == README
 
 This is a magical generator of inspiring quotes that will change your life. Hmm, not!
-Just my stupidy attempt to generate randon silly sentences in Ruby. 
+Just my stupid attempt to generate randon silly sentences in Ruby. 
+It mixes the 10 Commandments with the Agile Manifesto.
 
-You can see the result here: http://blablas.herokuapp.com
+You can it here: http://blablas.herokuapp.com
 
