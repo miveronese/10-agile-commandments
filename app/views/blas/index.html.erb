@@ -1,25 +1,31 @@
-<br><br><br>
+<br>
+<br>
+<div class="ui fixed inverted menu">
+  <div id="bar">
+    <a href="https://github.com/miveronese/blabla_generator" class="item"> Blabla Generator</a>
+  </div>
+</div>
+
 <div class="ui grid">
   <div class="three column row">
     <div class="column">
       <div class="quote_left"><i class="quote left icon"></i></div>
-    </div>  
-    <div class="column">
-      <h1 class="ui header"><div class="bla"><%= @bla %></div></h1>
     </div>
     <div class="column">
+      <div class="sentence"><p><%= @bla %></p></div> 
+    </div>
+    <div class="column">         
       <div class="quote_right"><i class="quote right icon"></i></div>
     </div>
   </div>
 </div>
+
 <div class="ui grid">
-  <div class="three column row">
-    <div class="column"> </div>
-    <div class="column">
-      <div id="button_bla">
-        <%= link_to "Bla", root_path, :method => :get, :class => "ui primary button big" %>
-      </div>
+  <div class="ui column">
+    <div class="button_bla">
+      <%= link_to "Bla", root_path, :method => :get, :class => "ui primary button big" %>
     </div>
-    <div class="column"> </div>
   </div>
 </div>
+
+
