@@ -1,5 +1,5 @@
 class Bla < ActiveRecord::Base
-
+  
   def generate_bla
     first_sentence = File.readlines("file1.txt")
     second_sentence = File.readlines("file2.txt")
